@@ -1,10 +1,3 @@
-import sys
-try:
-    import audioop
-except ModuleNotFoundError:
-    import audioop_lts as audioop
-    sys.modules["audioop"] = audioop
-
 import discord
 import asyncio
 import os
